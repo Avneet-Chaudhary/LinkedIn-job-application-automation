@@ -38,7 +38,7 @@ time.sleep(2)
 # # phone_no.send_keys(mob_no)
 # if phone_no.text == "":
 #     phone_no.send_keys(mob_no)
-# time.sleep(2)
+# time.sleep(3)
 #
 # nextt = driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/div/div[2]/form/footer/div[2]/button/span")
 # nextt.click()
