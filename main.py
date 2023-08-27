@@ -29,26 +29,6 @@ signin_btn = driver.find_element_by_xpath("/html/body/div/main/div[2]/div[1]/for
 signin_btn.click()
 time.sleep(2)
 
-# easy_apply = driver.find_element_by_xpath(
-#     "/html/body/div[5]/div[3]/div[4]/div/div/main/div/section[2]/div/div[2]/div[1]/div/div[1]/div/div[1]/div[1]/div[3]/div/div/div/button/span")
-# easy_apply.click()
-#
-# phone_no = driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/div/div[2]/form/div/div/div[3]/div[2]/div/div/input")
-# # phone_no.click()
-# # phone_no.send_keys(mob_no)
-# if phone_no.text == "":
-#     phone_no.send_keys(mob_no)
-# time.sleep(3)
-#
-# nextt = driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/div/div[2]/form/footer/div[2]/button/span")
-# nextt.click()
-# time.sleep(2)
-#
-# review = driver.find_element_by_xpath("/html/body/div[3]/div/div/div[2]/div/div[2]/form/footer/div[2]/button[2]/span")
-# review.click()
-#
-# submit_button = driver.find_element_by_id("ember381")
-# submit_button.click()
 
 all_listings = driver.find_elements_by_css_selector(".job-card-container--clickable")
 
